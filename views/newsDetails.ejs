@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <header class="">
+      <div class="container flex">
+        <a class="home" href="/"> Home </a>
+        <span>
+          <button class="btn">
+            <a href="/news/new"> Add News Feed </a>
+          </button>
+        </span>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h4 class="title"><%= news.title %></h4>
+        <h4 class="author"><%= news.author %></h4>
+        <p class="para"><%= news.description %></p>
+      </div>
+    </main>
+  </body>
+</html>
